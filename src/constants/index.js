@@ -174,7 +174,7 @@ const experiences = [
   {
     title: "Senior Programmer",
     company_name: "Kumaran Systems",
-    icon: meta,
+    icon: nashtech,
     iconBg: "#E6DEDD",
     date: "March 2025 – Present",
     points: [
