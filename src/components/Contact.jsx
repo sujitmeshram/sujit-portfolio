@@ -80,14 +80,21 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
-     <label className='flex flex-col'>
+  <label className='flex flex-col'>
   <span className='text-white font-medium mb-4'>
     Mail: <a href='mailto:sujitmeshramofficial@gmail.com' className='text-blue-400 hover:underline'>sujitmeshramofficial@gmail.com</a>
   </span>
 </label>
+
 <label className='flex flex-col'>
   <span className='text-white font-medium mb-4'>
     LinkedIn: <a href='https://www.linkedin.com/in/sujitmeshram' target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:underline'>sujitmeshram</a>
+  </span>
+</label>
+
+<label className='flex flex-col'>
+  <span className='text-white font-medium mb-4'>
+    Twitter: <a href='https://x.com/sujitmofficial' target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:underline'>@sujitmofficial</a>
   </span>
 </label>
 
